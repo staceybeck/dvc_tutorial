@@ -1,4 +1,6 @@
 [core]
-    remote = storage
+    remote = myremote
 ['remote "storage"']
     url = s3://my-bucket/dvc-storage
+['remote "myremote"']
+    url = /tmp/dvc-storage
